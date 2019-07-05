@@ -1,0 +1,359 @@
+body {
+    background-color: #EEEEEE;
+}
+
+.bg-color {
+    background-color: rgba(0, 0, 0, 1) !important;
+}
+
+.bg-color-2 {
+    background-color: #EEEEEE !important;
+}
+
+.inline-img {
+    display: inline-block;
+    max-height: 14px;
+    padding-top: 4px;
+    vertical-align: baseline !important;
+}
+
+.navbar {
+    min-height: 0px !important;
+    margin-bottom: 0;
+    border-radius: 0;
+}
+
+.navbar-brand {
+    font-size: 24px;
+}
+
+li.dropdown {
+    z-index: 10;
+}
+
+.brand-color {
+    color: #28BEB9 !important;
+}
+
+.low-color {
+    color: rgba(0, 0, 0, 0.4) !important;
+}
+
+a.nav-link {
+    color: rgb(209, 208, 208) !important;
+}
+
+.active a {
+    color: white !important;
+    text-decoration: bold;
+}
+
+.dropdown-menu a {
+    color: black !important;
+}
+
+.bookman {
+    font-family: "Bookman Old Style";
+    text-decoration: none !important;
+    display: inline;
+}
+
+.footer-right .bookman {
+    font-size: 18px;
+}
+
+.navbar-nav li {
+    padding-top: 0px !important;
+    padding-bottom: 0 !important;
+    margin-left: 20px;
+    height: 44px;
+}
+
+
+/* Banner */
+
+.banner-search {
+    top: 0;
+    height: 8vh;
+    padding: 10px;
+    text-decoration: none !important;
+    display: flex !important;
+    align-items: center !important;
+    background-image: url("../image/book.jpg") !important;
+    background-size: cover !important;
+    font-size: 24px !important;
+    color: white !important;
+    letter-spacing: 3px !important;
+    text-align: right !important;
+    margin-bottom: 20px;
+}
+
+.banner-departure {
+    top: 0;
+    height: 8vh;
+    padding: 10px;
+    text-decoration: none !important;
+    display: flex !important;
+    align-items: center !important;
+    background-image: url("../image/departure.jpg") !important;
+    background-position: left;
+    background-size: cover !important;
+    font-size: 24px !important;
+    color: white !important;
+    letter-spacing: 3px !important;
+    text-align: right !important;
+    margin-bottom: 20px;
+}
+
+.banner-arrival {
+    top: 0;
+    height: 8vh;
+    padding: 10px;
+    text-decoration: none !important;
+    display: flex !important;
+    align-items: center !important;
+    background-image: url("../image/arrival.jpg") !important;
+    background-position: left;
+    background-size: cover !important;
+    font-size: 24px !important;
+    color: white !important;
+    letter-spacing: 3px !important;
+    text-align: right !important;
+    margin-bottom: 20px;
+}
+
+
+/* Breadcrumb */
+
+ol.breadcrumb {
+    border-radius: 0;
+    background-color: #000000e1;
+    color: white;
+}
+
+ol.breadcrumb .date {
+    font-size: 90%;
+    font-weight: bold;
+    color: rgb(201, 196, 196);
+    display: inline;
+}
+
+ol.breadcrumb .bookman {
+    color: #28BEB9;
+    font-size: 120%;
+}
+
+
+/* Section Main */
+
+#main .container {
+    background-color: #EEEEEE;
+    padding: 0px;
+}
+
+#main .container .block {
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 0px;
+}
+
+.my-sidebar {
+    padding-left: 30px !important;
+    padding-right: 30px !important;
+}
+
+.my-results {
+    padding-left: 30px !important;
+    padding-right: 30px !important;
+}
+
+.my-departure {
+    padding-left: 30px !important;
+    padding-right: 30px !important;
+    max-width: 1072px;
+}
+
+
+/* Forms */
+
+form .row {
+    margin-bottom: 10px;
+}
+
+.btn-outline-primary {
+    margin-top: 10px;
+}
+
+a.btn.btn-info {
+    background-color: #28BEB9;
+    color: white !important;
+    padding: 5px;
+    margin: 10px 0px;
+    letter-spacing: 1px !important;
+}
+
+
+/* Lists and Accordion*/
+
+.departure-data {
+    margin-bottom: 20px;
+}
+
+.card-header {
+    padding-left: 30px !important;
+    padding-right: 0px !important;
+    padding-bottom: 0px !important;
+}
+
+.card-body {
+    padding: 0px !important;
+    max-width: 675px;
+}
+
+.card-body-departure {
+    padding: 0px !important;
+    max-width: 1000px;
+}
+
+.indent-text {
+    margin-left: 20px;
+    line-height: 25px;
+    color: #565656;
+}
+
+.indent-text-sm {
+    margin-left: 20px;
+    line-height: 20px;
+    color: #565656;
+}
+
+.flight-data {
+    padding-top: 1px !important;
+    padding-bottom: 10px !important;
+}
+
+.flight-data button {
+    padding: 0% !important;
+}
+
+.container-list {
+    width: 100% !important;
+    padding: 5px;
+    font-size: 90%;
+}
+
+.col-list {
+    padding: 0%;
+}
+
+.col-3.col-list.flight-data {
+    margin-left: 10px;
+}
+
+.col-2.col-list.flight-data {
+    padding-right: 0px;
+}
+
+ul.list-group {
+    margin-top: 1px;
+    margin-bottom: 20px;
+}
+
+.no-radius {
+    border-radius: 0 !important;
+}
+
+.list-head {
+    background-color: #28BEB9 !important;
+    color: #EEEEEE !important;
+}
+
+.table-sm {
+    margin-bottom: 10px;
+}
+
+.well {
+    padding: 5px;
+}
+
+
+/* Footer */
+
+.footer-distributed {
+    width: 100%;
+    text-align: center;
+    font: normal 16px sans-serif;
+    color: rgb(39, 201, 196) !important;
+    margin-top: 80px;
+}
+
+
+/* Footer links */
+
+.footer-distributed p.footer-links {
+    font-size: 18px;
+    font-weight: bold;
+    color: #EEEEEE !important;
+    margin: 0;
+    padding: 0;
+}
+
+.footer-distributed p.footer-links a {
+    display: inline-block;
+    line-height: 1.8;
+    text-decoration: none;
+    color: rgb(39, 201, 196) !important;
+}
+
+.footer-distributed .footer-right {
+    margin-top: 6px;
+    padding: 0px;
+    max-width: 100%;
+}
+
+.footer-distributed .footer-right a {
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    background-color: rgb(39, 201, 196);
+    border-radius: 2px;
+    font-size: 20px;
+    color: #EEEEEE;
+    text-align: center;
+    line-height: 35px;
+    margin-left: 20px;
+}
+
+
+/* If you don't want the footer to be responsive, remove these media queries */
+
+@media (max-width: 600px) {
+    .footer-distributed .footer-left,
+    .footer-distributed .footer-right {
+        text-align: center;
+    }
+    .footer-distributed .footer-right {
+        float: none;
+        margin: 0 auto 20px;
+    }
+    .footer-distributed .footer-left p.footer-links {
+        line-height: 1.8;
+    }
+}
+
+@media (max-width: 767px) {
+    .navbar-default .navbar-nav .open .dropdown-menu>li>a {
+        color: #ecf0f1;
+    }
+    .navbar-default .navbar-nav .open .dropdown-menu>li>a:hover,
+    .navbar-default .navbar-nav .open .dropdown-menu>li>a:focus {
+        color: #ffbbbc;
+    }
+    .navbar-default .navbar-nav .open .dropdown-menu>.active>a,
+    .navbar-default .navbar-nav .open .dropdown-menu>.active>a:hover,
+    .navbar-default .navbar-nav .open .dropdown-menu>.active>a:focus {
+        color: #ffbbbc;
+        background-color: #c0392b;
+    }
+}

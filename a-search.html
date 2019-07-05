@@ -1,0 +1,464 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Flight | Select Departure</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
+</head>
+
+<body>
+
+    <!--Navbar-->
+    <nav class="navbar navbar-expand-lg bg-color">
+        <div class="container">
+            <!--Brand Title-->
+            <a class="navbar-brand brand-color bookman" href="index.html">Flight</a>
+            <nav class="navbar navbar-dark bg-color">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+            </nav>
+            <!--Collapse Nav Items-->
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="search.html">Book a flight</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">View my trips</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contact Us</a>
+                    </li>
+                </ul>
+                <!--Dropdown-->
+                <ul class="navbar-nav nav-right">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            John Doe
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="#">My Account</a>
+                            <a class="dropdown-item" href="#">Settings</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="#">Log-out</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Banner -->
+    <section id="banner">
+        <div class="banner-arrival bookman">
+            <div class="container">
+                Arrival
+            </div>
+        </div>
+    </section>
+
+    <!-- Breadcrumb -->
+    <section id="main">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <ol class="breadcrumb">
+                        <li>Select your return on
+                            <div class="date">July 26, 2019: </div> &nbsp;
+                            <div class="bookman">Manila, Philippines.</div>
+                        </li>
+
+                    </ol>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--Main Body-->
+    <section id="main">
+        <div class="container">
+            <!-- Sort/Filter and List of flights-->
+            <div class="row">
+                <div class="col my-departure">
+                    <!-- Departure Flight Data -->
+                    <div class="card bg-color-2 departure-data">
+                        <div class="card-header" id="heading3">
+                            <div class="row">
+                                <div class="col-lg-12 brand-color">
+                                    Your selected departure flight
+                                </div>
+                            </div>
+                            <div class="row container-list">
+                                <div class="col-4 col-list flight-data">
+                                    <image class="inline-img" src="./image/pal-icon.jpg"></image>
+                                    <strong> Philipine Airlines </strong>
+                                    <br> 12:20AM - 6:33AM <br>
+                                    <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapse3" aria-expanded="true" aria-controls="collapseOne">
+                                        See more details
+                                    </button>
+                                </div>
+                                <div class="col-3 col-list flight-data">
+                                    MNL - NRT <br> 6h 13m
+                                </div>
+                                <div class="col-2 col-list flight-data">
+                                    <strong>P76,600</strong> <small>/pax</small> <br> 1 stop
+                                </div>
+                                <div class="col-2 col-list">
+                                    <a href="d-search.html" class="btn btn-info center-block" role="button">Change</a> <br>
+                                </div>
+                                <div id="collapse3" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
+                                    <div class="card-body-departure">
+                                        <div class="breadcrumb">
+                                            Roundtrip price for 1 traveler, including taxes and fees: P76,600<br> Free Cancellation within 24 hours of booking!
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-sm-6">
+                                                <h5>Departure</h5>
+                                                <h6>12:20 am to 6:33 am (6h 13m)</h6>
+                                                <p class="indent-text">Manila to Tokyo<br> Ninoy Aquino Intl. (MNL) to Haneda (HND)<br> Philippine Airlines 78<br> Economy / Coach (Q)<br> Philing 787-8 </p>
+                                            </div>
+                                            <div class="col-sm-6">
+                                                <h5>Baggage Fees</h5>
+                                                <h6>Estimated bag fees</h6>
+                                                <p class="indent-text-sm">Carry on: No fee <br>1st checked bag: No fee <br>2nd checked bag: No fee <br><br> Confirm bag fees, weight and size restrictions with
+                                                    <a href="#"> Philippine Airlines </a>
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <!-- Sort/Filter-->
+                <div class="col-md-3 my-sidebar">
+                    <ul class="list-group">
+                        <li class="list-group-item list-head">Sort by:</li>
+                        <li class="list-group-item">Item Two</li>
+                        <li class="list-group-item">Item Three</li>
+                        <li class="list-group-item">Item Four</li>
+                    </ul>
+                </div>
+
+                <!--Results-->
+                <div class="col-md-8 my-results">
+
+                    <div class="accordion" id="accordionExample">
+
+                        <!-- Flight Data -->
+                        <div class="card">
+                            <div class="card-header" id="headingOne">
+
+                                <div class="row container-list">
+                                    <div class="col-4 col-list flight-data">
+                                        <image class="inline-img" src="./image/pal-icon.jpg"></image>
+                                        <strong> Philipine Airlines </strong>
+                                        <br> 7:55PM - 12:55AM <br>
+                                        <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                                See more details
+                                        </button>
+                                    </div>
+                                    <div class="col-3 col-list flight-data">
+                                        NRT - MNL <br> 6h 13m
+                                    </div>
+                                    <div class="col-2 col-list flight-data">
+                                        <strong>P76,600</strong> <small>/pax</small> <br> 1 stop
+                                    </div>
+                                    <div class="col-2 col-list">
+                                        <a href="overview.html" class="btn btn-info center-block" role="button">Select</a> <br>
+                                    </div>
+                                    <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
+                                        <div class="card-body">
+                                            <div class="breadcrumb">
+                                                Roundtrip price for 1 traveler, including taxes and fees: P76,600<br> Free Cancellation within 24 hours of booking!
+                                            </div>
+                                            <div class="row">
+                                                <div class="col-sm-6">
+                                                    <h5>Departure</h5>
+                                                    <h6>7:55 pm to 12:55 am (6h 13m)</h6>
+                                                    <p class="indent-text">Tokyo to Manila<br> Haneda (HND) to Ninoy Aquino Intl. (MNL)<br> Philippine Airlines 99<br> Economy / Coach (Q)<br> Philing 787-8 </p>
+                                                </div>
+                                                <div class="col-sm-6">
+                                                    <h5>Baggage Fees</h5>
+                                                    <h6>Estimated bag fees</h6>
+                                                    <p class="indent-text-sm">Carry on: No fee <br>1st checked bag: No fee <br>2nd checked bag: No fee <br><br> Confirm bag fees, weight and size restrictions with
+                                                        <a href="#"> Philippine Airlines </a>
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="row container-list">
+                                    <div class="col-4 col-list flight-data">
+                                        <image class="inline-img" src="./image/pal-icon.jpg"></image>
+                                        <strong> Philipine Airlines </strong>
+                                        <br> 7:55PM - 12:55AM <br>
+                                        <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                                    See more details
+                                            </button>
+                                    </div>
+                                    <div class="col-3 col-list flight-data">
+                                        NRT - MNL <br> 6h 13m
+                                    </div>
+                                    <div class="col-2 col-list flight-data">
+                                        <strong>P76,600</strong> <small>/pax</small> <br> 1 stop
+                                    </div>
+                                    <div class="col-2 col-list">
+                                        <a href="overview.html" class="btn btn-info center-block" role="button">Select</a> <br>
+                                    </div>
+                                    <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
+                                        <div class="card-body">
+                                            <div class="breadcrumb">
+                                                Roundtrip price for 1 traveler, including taxes and fees: P76,600<br> Free Cancellation within 24 hours of booking!
+                                            </div>
+                                            <div class="row">
+                                                <div class="col-sm-6">
+                                                    <h5>Departure</h5>
+                                                    <h6>7:55 pm to 12:55 am (6h 13m)</h6>
+                                                    <p class="indent-text">Tokyo to Manila<br> Haneda (HND) to Ninoy Aquino Intl. (MNL)<br> Philippine Airlines 99<br> Economy / Coach (Q)<br> Philing 787-8 </p>
+                                                </div>
+                                                <div class="col-sm-6">
+                                                    <h5>Baggage Fees</h5>
+                                                    <h6>Estimated bag fees</h6>
+                                                    <p class="indent-text-sm">Carry on: No fee <br>1st checked bag: No fee <br>2nd checked bag: No fee <br><br> Confirm bag fees, weight and size restrictions with
+                                                        <a href="#"> Philippine Airlines </a>
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+
+                        <!-- Flight Data -->
+                        <div class="card">
+                            <div class="card-header" id="heading2">
+                                <div class="row container-list">
+                                    <div class="col-4 col-list flight-data">
+                                        <image class="inline-img" src="./image/pal-icon.jpg"></image>
+                                        <strong> Philipine Airlines </strong>
+                                        <br> 7:55PM - 12:55AM <br>
+                                        <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapse2" aria-expanded="true" aria-controls="collapseOne">
+                                                    See more details
+                                            </button>
+                                    </div>
+                                    <div class="col-3 col-list flight-data">
+                                        NRT - MNL <br> 6h 13m
+                                    </div>
+                                    <div class="col-2 col-list flight-data">
+                                        <strong>P76,600</strong> <small>/pax</small> <br> 1 stop
+                                    </div>
+                                    <div class="col-2 col-list">
+                                        <a href="#" class="btn btn-info center-block" role="button">Select</a> <br>
+                                    </div>
+                                    <div id="collapse2" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
+                                        <div class="card-body">
+                                            <div class="breadcrumb">
+                                                Roundtrip price for 1 traveler, including taxes and fees: P76,600<br> Free Cancellation within 24 hours of booking!
+                                            </div>
+                                            <div class="row">
+                                                <div class="col-sm-6">
+                                                    <h5>Departure</h5>
+                                                    <h6>7:55 pm to 12:55 am (6h 13m)</h6>
+                                                    <p class="indent-text">Tokyo to Manila<br> Haneda (HND) to Ninoy Aquino Intl. (MNL)<br> Philippine Airlines 99<br> Economy / Coach (Q)<br> Philing 787-8 </p>
+                                                </div>
+                                                <div class="col-sm-6">
+                                                    <h5>Baggage Fees</h5>
+                                                    <h6>Estimated bag fees</h6>
+                                                    <p class="indent-text-sm">Carry on: No fee <br>1st checked bag: No fee <br>2nd checked bag: No fee <br><br> Confirm bag fees, weight and size restrictions with
+                                                        <a href="#"> Philippine Airlines </a>
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Flight Data -->
+                        <div class="card">
+                            <div class="card-header" id="heading3">
+                                <div class="row container-list">
+                                    <div class="col-4 col-list flight-data">
+                                        <image class="inline-img" src="./image/pal-icon.jpg"></image>
+                                        <strong> Philipine Airlines </strong>
+                                        <br> 7:55PM - 12:55AM <br>
+                                        <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapse3" aria-expanded="true" aria-controls="collapseOne">
+                                                    See more details
+                                            </button>
+                                    </div>
+                                    <div class="col-3 col-list flight-data">
+                                        NRT - MNL <br> 6h 13m
+                                    </div>
+                                    <div class="col-2 col-list flight-data">
+                                        <strong>P76,600</strong> <small>/pax</small> <br> 1 stop
+                                    </div>
+                                    <div class="col-2 col-list">
+                                        <a href="#" class="btn btn-info center-block" role="button">Select</a> <br>
+                                    </div>
+                                    <div id="collapse3" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
+                                        <div class="card-body">
+                                            <div class="breadcrumb">
+                                                Roundtrip price for 1 traveler, including taxes and fees: P76,600<br> Free Cancellation within 24 hours of booking!
+                                            </div>
+                                            <div class="row">
+                                                <div class="col-sm-6">
+                                                    <h5>Departure</h5>
+                                                    <h6>7:55 pm to 12:55 am (6h 13m)</h6>
+                                                    <p class="indent-text">Tokyo to Manila<br> Haneda (HND) to Ninoy Aquino Intl. (MNL)<br> Philippine Airlines 99<br> Economy / Coach (Q)<br> Philing 787-8 </p>
+                                                </div>
+                                                <div class="col-sm-6">
+                                                    <h5>Baggage Fees</h5>
+                                                    <h6>Estimated bag fees</h6>
+                                                    <p class="indent-text-sm">Carry on: No fee <br>1st checked bag: No fee <br>2nd checked bag: No fee <br><br> Confirm bag fees, weight and size restrictions with
+                                                        <a href="#"> Philippine Airlines </a>
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Flight Data -->
+                        <div class="card">
+                            <div class="card-header" id="heading4">
+                                <div class="row container-list">
+                                    <div class="col-4 col-list flight-data">
+                                        <image class="inline-img" src="./image/pal-icon.jpg"></image>
+                                        <strong> Philipine Airlines </strong>
+                                        <br> 7:55PM - 12:55AM <br>
+                                        <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapse4" aria-expanded="true" aria-controls="collapseOne">
+                                                    See more details
+                                            </button>
+                                    </div>
+                                    <div class="col-3 col-list flight-data">
+                                        NRT - MNL <br> 6h 13m
+                                    </div>
+                                    <div class="col-2 col-list flight-data">
+                                        <strong>P76,600</strong> <small>/pax</small> <br> 1 stop
+                                    </div>
+                                    <div class="col-2 col-list">
+                                        <a href="#" class="btn btn-info center-block" role="button">Select</a> <br>
+                                    </div>
+                                    <div id="collapse4" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
+                                        <div class="card-body">
+                                            <div class="breadcrumb">
+                                                Roundtrip price for 1 traveler, including taxes and fees: P76,600<br> Free Cancellation within 24 hours of booking!
+                                            </div>
+                                            <div class="row">
+                                                <div class="col-sm-6">
+                                                    <h5>Departure</h5>
+                                                    <h6>7:55 pm to 12:55 am (6h 13m)</h6>
+                                                    <p class="indent-text">Tokyo to Manila<br> Haneda (HND) to Ninoy Aquino Intl. (MNL)<br> Philippine Airlines 99<br> Economy / Coach (Q)<br> Philing 787-8 </p>
+                                                </div>
+                                                <div class="col-sm-6">
+                                                    <h5>Baggage Fees</h5>
+                                                    <h6>Estimated bag fees</h6>
+                                                    <p class="indent-text-sm">Carry on: No fee <br>1st checked bag: No fee <br>2nd checked bag: No fee <br><br> Confirm bag fees, weight and size restrictions with
+                                                        <a href="#"> Philippine Airlines </a>
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Flight Data -->
+                        <div class="card">
+                            <div class="card-header" id="heading5">
+                                <div class="row container-list">
+                                    <div class="col-4 col-list flight-data">
+                                        <image class="inline-img" src="./image/pal-icon.jpg"></image>
+                                        <strong> Philipine Airlines </strong>
+                                        <br> 7:55PM - 12:55AM <br>
+                                        <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapse5" aria-expanded="true" aria-controls="collapseOne">
+                                                    See more details
+                                            </button>
+                                    </div>
+                                    <div class="col-3 col-list flight-data">
+                                        NRT - MNL <br> 6h 13m
+                                    </div>
+                                    <div class="col-2 col-list flight-data">
+                                        <strong>P76,600</strong> <small>/pax</small> <br> 1 stop
+                                    </div>
+                                    <div class="col-2 col-list">
+                                        <a href="#" class="btn btn-info center-block" role="button">Select</a> <br>
+                                    </div>
+                                    <div id="collapse5" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
+                                        <div class="card-body">
+                                            <div class="breadcrumb">
+                                                Roundtrip price for 1 traveler, including taxes and fees: P76,600<br> Free Cancellation within 24 hours of booking!
+                                            </div>
+                                            <div class="row">
+                                                <div class="col-sm-6">
+                                                    <h5>Departure</h5>
+                                                    <h6>7:55 pm to 12:55 am (6h 13m)</h6>
+                                                    <p class="indent-text">Tokyo to Manila<br> Haneda (HND) to Ninoy Aquino Intl. (MNL)<br> Philippine Airlines 99<br> Economy / Coach (Q)<br> Philing 787-8 </p>
+                                                </div>
+                                                <div class="col-sm-6">
+                                                    <h5>Baggage Fees</h5>
+                                                    <h6>Estimated bag fees</h6>
+                                                    <p class="indent-text-sm">Carry on: No fee <br>1st checked bag: No fee <br>2nd checked bag: No fee <br><br> Confirm bag fees, weight and size restrictions with
+                                                        <a href="#"> Philippine Airlines </a>
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+                <!-- End of Accordion-->
+            </div>
+            <!-- End of Results-->
+        </div>
+        <!-- End of Both Sort.../ Results -->
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer-distributed">
+
+        <div class="footer-right">
+            <a href="#"><i class="fa fa-faMNLook"></i></a>
+            <a href="#"><i class="fa fa-twitter"></i></a>
+            <a href="#"><i class="fa fa-linkedin"></i></a>
+            <a href="#"><i class="fa fa-github"></i></a>
+            <p></p>
+            <p>
+                <div class="bookman"> Flight </div> <small>Copyright &copy; 2019 </small>
+            </p>
+        </div>
+    </footer>
+
+    <!-- JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script>
+        window.jQuery || document.write('<script src="js/vendor/jquery-slim.min.js"><\/script>')
+    </script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

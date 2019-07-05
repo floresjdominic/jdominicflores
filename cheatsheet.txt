@@ -1,0 +1,99 @@
+TEXTBOX + button
+<form class="form-inline my-2 my-lg-0">
+ <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
+  <button class="btn btn-secondary my-2 my-sm-0" type="submit">Search</button>
+</form>
+
+Active link
+<li class="nav-item active">
+  <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+</li>
+<li class="nav-item active">
+                    <a class="nav-link" href="#">Book a flight <span class="sr-only">(current)</span></a>
+                </li>
+
+Dropdown 
+<li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Account</a>
+              <div class="dropdown-menu" aria-labelledby="dropdown01">
+                <a class="dropdown-item" href="#">Sign-in</a>
+                <a class="dropdown-item" href="#">Create an Account</a>
+              </div>
+            </li>
+
+Form text
+     <form>
+                        <div class="form-group">
+                            <label for="exampleInputEmail1">Flying from</label>
+                            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter a city or country">
+                            <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone
+                                else.</small>
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleInputPassword1">Password</label>
+                            <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+                        </div>
+                    </form>
+
+
+  <!-- One-Way/Roundtrip Radio -->
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+                        <label class="form-check-label" for="inlineRadio1">One-Way</label>
+                    </div>
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+                        <label class="form-check-label" for="inlineRadio2">Roundtrip</label>
+                    </div>
+
+                    <!-- Flying from / Flying to -->
+                    <form class="form-inline">
+                        <div class="form-group mb-2 col-sm-5">
+                            <label for="exampleInputEmail1">Flying from: </label>
+                            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter a city or country">
+                        </div>
+                        <div class="form-group mb-2 col-sm-5">
+                            <label for="exampleInputEmail1">Flying to: </label>
+                            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter a city or country">
+                        </div>
+                    </form>    
+
+-----------------------------------------------------------Containter
+                    <div class="row">
+
+                <!-- Sort by / Filter -->
+                <div class="col-md-3">
+
+                    <!-- Sort -->
+                    <div class="container">
+                        <ul class="list-group">
+                            <li class="list-group-item list-head">Sort by:</li>
+                            <li class="list-group-item">Item Two</li>
+                            <li class="list-group-item">Item Three</li>
+                            <li class="list-group-item">Item Four</li>
+                        </ul>
+                    </div>
+
+                    <!-- Filter-->
+                    <div class="container">
+                        <ul class="list-group">
+                            <li class="list-group-item list-head">Sort by:</li>
+                            <li class="list-group-item">Item Two</li>
+                            <li class="list-group-item">Item Three</li>
+                            <li class="list-group-item">Item Four</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Results -->
+                <div class="col-md-9">
+                    <div class="container">
+                        <ul class="list-group">
+                            <li class="list-group-item list-head">Sort by:</li>
+                            <li class="list-group-item">Item Two</li>
+                            <li class="list-group-item">Item Three</li>
+                            <li class="list-group-item">Item Four</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>

@@ -1,0 +1,137 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Flight | Book a flight</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
+</head>
+
+<body>
+
+    <!--Navbar-->
+    <nav class="navbar navbar-expand-lg bg-color">
+        <div class="container">
+            <!--Brand Title-->
+            <a class="navbar-brand brand-color bookman" href="index.html">Flight</a>
+            <nav class="navbar navbar-dark bg-color">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+            </nav>
+            <!--Collapse Nav Items-->
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="search.html">Book a flight</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">View my trips</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contact Us</a>
+                    </li>
+                </ul>
+                <!--Dropdown-->
+                <ul class="navbar-nav nav-right">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            John Doe
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="#">My Account</a>
+                            <a class="dropdown-item" href="#">Settings</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="#">Log-out</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Banner -->
+    <div class="banner-search bookman">
+        <div class="container">
+            Search your flight
+        </div>
+    </div>
+
+    <!--Main Body-->
+    <section id="main">
+        <div class="container">
+            <div class="block shadow p-3 mb-5 bg-white rounded">
+                <form>
+                    <div class="row">
+                        <!-- One-way / Roundtrip Radio -->
+                        <div class="col">
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+                                <label class="form-check-label" for="inlineRadio1">One-Way</label>
+                            </div>
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+                                <label class="form-check-label" for="inlineRadio2">Roundtrip</label>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Flying to / Flying from-->
+                    <div class="row">
+                        <div class="col">
+                            <label for="exampleInputEmail1">Flying from: </label>
+                            <input type="text" class="form-control" placeholder="Enter city or country">
+                        </div>
+                        <div class="col">
+                            <label for="exampleInputEmail1">Flying from: </label>
+                            <input type="text" class="form-control" placeholder="Enter city or country">
+                        </div>
+                    </div>
+                    <!-- Date & No. of Travelers-->
+                    <div class="row">
+                        <div class="col-sm-2">
+                            <label for="exampleInputEmail1">Departure</label>
+                            <input type="text" class="form-control" placeholder="mm / dd / yyyy">
+                        </div>
+                        <div class="col-sm-2">
+                            <label for="exampleInputEmail1">Return </label>
+                            <input type="text" class="form-control" placeholder="mm / dd / yyyy">
+                        </div>
+                        <div class="col-sm-4">
+                            <label for="exampleInputEmail1">No. of travelers: </label>
+                            <input type="text" class="form-control" placeholder="Number of adults, children/infant">
+                        </div>
+                    </div>
+                    <a href="d-search.html" class="btn btn-info" role="button">Search</a>
+                </form>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer-distributed">
+
+        <div class="footer-right">
+            <a href="#"><i class="fa fa-facebook"></i></a>
+            <a href="#"><i class="fa fa-twitter"></i></a>
+            <a href="#"><i class="fa fa-linkedin"></i></a>
+            <a href="#"><i class="fa fa-github"></i></a>
+            <p></p>
+            <p>
+                <div class="bookman"> Flight </div> <small>Copyright &copy; 2019 </small>
+            </p>
+        </div>
+    </footer>
+
+    <!-- JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script>
+        window.jQuery || document.write('<script src="js/vendor/jquery-slim.min.js"><\/script>')
+    </script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
